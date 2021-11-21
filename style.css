@@ -3,43 +3,46 @@ body {
 }
 
 /* Header*/
-.header {
+.container {
     margin: 0;
     padding: 0;
 }
+
 .navHeader {
     display: flex;
     justify-content: space-around;
 }
+
 .navHeaderElement {
+    text-shadow: 0.5px 0.5px 0.5px grey;
     margin: 3px;
     text-decoration: none;
     color: black;
     font-size: 25px;
 }
 
-h1 {
-    position:relative;
-    margin: 140px;
-    color:red;
-    font-size: 100px;;
+/*Main */
+.flexContainer {
+   display: flex;
+   flex-direction: column;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-
+.flexElementH1 {
+color:crimson;
+font-size: 100px;
+align-self: center;
+text-shadow: 3px 3px 3px black;
 }
 
-.button {
-    padding: 10px;
-    background-color:inherit ;
-    color:yellow;
-    font-weight: 700;
-    font-size: 100px;
-    border-style:double;
-    border-width: 4px;
 
+.flexElementButton {
+align-self:center;
+margin: 20px 20px;
+padding: 20px 20px;
+background-color:crimson;
+text-shadow: 1px 1px 1px grey;
+font-size: 30px;
+border-style: double;
+border-color: black;
+border-width:10px;
 }
