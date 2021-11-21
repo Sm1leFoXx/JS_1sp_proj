@@ -55,4 +55,10 @@ font-size: 30px;
 border-style: double;
 border-color: black;
 border-width:20px;
+cursor: pointer;
+}
+.flexElementButton:hover {
+background:wheat;
+color:green;
+font-weight: 900;
 }
