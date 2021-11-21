@@ -2,6 +2,22 @@ body {
     background-image:url(warhammer-40k-characters.jpg) ;
 }
 
+/* Header*/
+.header {
+    margin: 0;
+    padding: 0;
+}
+.navHeader {
+    display: flex;
+    justify-content: space-around;
+}
+.navHeaderElement {
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
 h1 {
     position:relative;
     margin: 140px;
