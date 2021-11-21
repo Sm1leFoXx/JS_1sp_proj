@@ -20,6 +20,9 @@ body {
     color: black;
     font-size: 25px;
 }
+.navHeaderElement:hover {
+    color:red;
+}
 
 /*Main */
 .flexContainer {
@@ -31,9 +34,16 @@ body {
 color:crimson;
 font-size: 100px;
 align-self: center;
-text-shadow: 3px 3px 3px black;
+text-shadow: 3px 4px 3px black;
 }
 
+.flexElementP {
+    width: 1000px;
+    align-self: center;
+    color:white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 30px;
+}
 
 .flexElementButton {
 align-self:center;
@@ -44,5 +54,5 @@ text-shadow: 1px 1px 1px grey;
 font-size: 30px;
 border-style: double;
 border-color: black;
-border-width:10px;
+border-width:20px;
 }
